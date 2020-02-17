@@ -4,7 +4,7 @@ def square_array(array)
   while counter < array.length do
     newVal = (array[counter] * array[counter]);
     newArray.push(newVal);
-    counter++;
+    counter+=1;
   end
   return newArray;
 end
