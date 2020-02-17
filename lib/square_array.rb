@@ -6,5 +6,5 @@ def square_array(array)
     newArray.push(newVal)
     counter++
   end
-  retrun newArray
+  return newArray
 end
